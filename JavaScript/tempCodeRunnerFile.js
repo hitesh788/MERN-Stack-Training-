@@ -1,2 +1,5 @@
-console.log(a);
-var a=10
+console.log(function(a))
+
+function fun(){
+    10
+}
