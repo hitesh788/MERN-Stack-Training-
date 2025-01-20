@@ -30,4 +30,29 @@ console.log(!a)
 //spread operator
 a=[1,2,3,4]
 b=[5,6,7,]
-console.log(a +b)
+c=[...b,...a]
+console.log(c)
+
+//rest operator
+function restOperator(...args){
+    console.log(args)
+}
+restOperator(10,20,30,40,50)
+function restOperator(a,b,...args){
+    console.log(a)
+    console.log(b)
+    console.log(args)
+}
+restOperator(10,20,30,40,50,...b)
+
+//destructuring operator
+var array=[10,20,30];
+var [a,b]=array
+console.log(a,b)
+
+//Hoisting operator
+
+console.log(a);a
+var a=10
+
+//function hoi
