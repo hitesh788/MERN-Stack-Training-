@@ -20,16 +20,18 @@ const toggleDropdown = () =>{
           <li><Link to="/use-state">UseState</Link></li>
           <li><Link to="/use-effect">UseEffect</Link></li> 
           <div>
-          <span onMouseEnter={toggleDropdown }onMouseleave={toggleDropdown }>Hooks</span>
+          <span onClick={toggleDropdown }onMouseleave={toggleDropdown }>Hooks</span>
            {dropdown && (
             <ul>
               <li><Link to="https:/ishansingh.com.np">List1</Link></li>
-              <li><Link to="">List2</Link></li>
+              <li><Link to="https:/hiteshjoshi.com.np">List2</Link></li>
               <li><Link to="">List3</Link></li>
             </ul>)}
           </div>
-
           <li><Link to="/signup">Signup</Link></li> 
+          <li><Link to="/use-memo">UseMemo</Link></li>
+          <li><Link to="/use-ref">UseRef</Link></li>
+          <li><Link to="/use-callback">UseCallback</Link></li>
          
         </ol>
       </nav>
