@@ -47,7 +47,7 @@ app.post("/signup/", async (req, res) => {
 });
 
 app.post('/update', async (req, res) => {
-  var updateRec = await Signup.findOneAndUpdate({"userName":"ishan7"}, {$set:{"userName":"ishan2060"}})
+  var updateRec = await Signup.findOneAndUpdate({"userName":"hitesh123"}, {$set:{"userName":"ishan2060"}})
   res.send("User updated successfully");
 
 })
